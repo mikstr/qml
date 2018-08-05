@@ -130,7 +130,7 @@ ext_fslatm = Extension(name = 'fslatm',
 
 # use README.md as long description
 def readme():
-    with open('README.md') as f:
+    with open('README.md', encoding='utf-8') as f:
         return f.read()
 
 def setup_pepytools():
